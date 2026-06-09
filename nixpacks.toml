@@ -2,4 +2,4 @@
 cmds = ["npm install -g pnpm@10 --quiet", "pnpm install --no-frozen-lockfile"]
 
 [phases.build]
-cmds = ["pnpm run build:railway"]
+cmds = ["pnpm run build"]
