@@ -2,4 +2,4 @@
 cmds = ["corepack enable && corepack prepare pnpm@10 --activate && pnpm install --no-frozen-lockfile"]
 
 [phases.build]
-cmds = ["pnpm run build:railway"]
+cmds = ["pnpm run build"]
